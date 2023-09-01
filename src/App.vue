@@ -3,15 +3,15 @@ import { ref } from 'vue';
 import BaseHome from './components/BaseHome.vue';
 import TheBoard from './components/TheBoard.vue';
 
-const currentTab = ref('BaseHome')
+const currentTab = ref('1. TheBoard')
 
 interface Tabs<T> {
   [key: string]: T
 }
 
 const tabs: Tabs<unknown> = {
-  BaseHome,
-  TheBoard
+  '0. BaseHome': BaseHome,
+  '1. TheBoard': TheBoard
 }
 
 </script>
