@@ -22,7 +22,7 @@ const board = [...Array(NUM)].map((_, row) => {
   display: grid;
   grid-template-columns: repeat(11, minmax(0, 1fr));
 
-  .row:nth-child(10n+1)>:nth-child(10n+1) {
+  .row:nth-child(10n + 1) > :nth-child(10n + 1) {
     background-color: var(--background-color, black);
 
     ::after {
@@ -30,7 +30,7 @@ const board = [...Array(NUM)].map((_, row) => {
     }
   }
 
-  .row:nth-child(10n+1) {
+  .row:nth-child(10n + 1) {
     &:hover {
       animation-play-state: paused;
     }
@@ -41,7 +41,7 @@ const board = [...Array(NUM)].map((_, row) => {
     }
   }
 
-  .cell:nth-child(10n+1) {
+  .cell:nth-child(10n + 1) {
     ::after {
       content: attr(data-col);
       font-size: 2rem;

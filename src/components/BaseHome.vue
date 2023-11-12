@@ -1,18 +1,18 @@
 <script setup lang="ts">
-import HelloWorld from '@/components/HelloWorld.vue'
-import Tag from '@/components/Tag.vue'
-import Input from '@/components/Input.vue'
-import { nextTick, ref } from 'vue';
+import HelloWorld from "@/components/HelloWorld.vue";
+import Tag from "@/components/Tag.vue";
+import Input from "@/components/Input.vue";
+import { nextTick, ref } from "vue";
 
-const inputVisible = ref(false)
+const inputVisible = ref(false);
 const toggle = () => {
-  inputVisible.value = !inputVisible.value
-}
+  inputVisible.value = !inputVisible.value;
+};
 const show = () => {
-  toggle()
-  nextTick(() => inputRef.value.$el.focus())
-}
-const inputRef = ref()
+  toggle();
+  nextTick(() => inputRef.value.$el.focus());
+};
+const inputRef = ref();
 </script>
 
 <template>
