@@ -1,5 +1,7 @@
 # vue-playground
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/f058bb42-a730-44a0-ae45-ba74c987a17b/deploy-status)](https://app.netlify.com/sites/p5cat-vue-playground/deploys)
+
 ## Vue 3 + TypeScript + Vite
 
 This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
